@@ -1,0 +1,108 @@
+body{
+    height: 100%;
+}
+
+.possition-Content{
+    display: flex;
+    justify-content: center;
+}
+
+.possition-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz-answer:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0,0.2);
+}
+
+.right-answer{
+    background-color: green;
+    color: white;
+}
+
+.falsh-answer{
+    background-color: red;
+    color: white;
+}
+
+
+.card-img-top{
+    height: 100px;
+    width: 60px;
+}
+
+.question-pic{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.endscreen-title{
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.padding{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #0d6efd !important;
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 20px;
+}
+
+.nav-bar-background{
+    background-color: #0d6efd !important;
+}
+
+.logo-size{
+    height: 70px;
+    width: 110px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.backgrpund-Content{
+    background-color: rgb(247,247,247);
+    height: 100vh;
+}
+
+.max-widthe{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.card-size{
+    width: 30rem !important;
+}
+
+
+
+@media(max-width: 600px){
+    .question-pic{
+        height: 200px;
+    }
+
+    .span-responsive{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .possition-button{
+        flex-direction: column;
+    }
+}
